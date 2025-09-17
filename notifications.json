@@ -1,0 +1,17 @@
+[
+    {
+        "type": "info",
+        "message": "lorem ipsum",
+        "priority": 1
+    },
+    {
+        "type": "warning", 
+        "message": "some test warning",
+        "priority": 2
+    },
+    {
+        "type": "error",
+        "message": "hello world",
+        "priority": 0
+    }
+]
