@@ -32,7 +32,7 @@
         "screen": "builds",
         "onClick": {
             "type": "page",
-            "value": "builds"
+            "value": "settings/theme"
         }
     },
     {
