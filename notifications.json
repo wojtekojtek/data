@@ -42,5 +42,21 @@
         "priority": 3,
         "dismissible": true,
         "screen": "home"
+    },
+    {
+        "id": "d6b2d964-cfde-4dc7-9e0b-a90c2b54eb66",
+        "type": "error",
+        "message": "aabbbaa",
+        "priority": 50,
+        "dismissible": true,
+        "screen": "everywhere"
+    },
+    {
+        "id": "e34c2234-666e-4b9a-91c6-ba921a4ddaee",
+        "type": "info",
+        "message": "aaabaaaaaa",
+        "priority": 80,
+        "dismissible": true,
+        "screen": "everywhere"
     }
 ]
