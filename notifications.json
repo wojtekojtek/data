@@ -42,5 +42,42 @@
                 }
             ]
         }
+    },
+    {
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "type": "warning",
+        "message": "hello world",
+        "priority": 5,
+        "dismissible": true,
+        "screen": "home",
+        "onClick": {
+            "type": "dialog",
+            "dialogTitle": "hey",
+            "dialogMessage": "aaaaaaaa1",
+            "buttons": [
+                {
+                    "text": "more",
+                    "action": "show_dialog",
+                    "dialogTitle": "hi",
+                    "dialogMessage": "aaaaaaaaaaaa2",
+                    "buttons": [
+                        {
+                            "text": "more",
+                            "action": "show_dialog",
+                            "dialogTitle": "hi",
+                            "dialogMessage": "aaaaaaaaaaaa3"
+                        },
+                        {
+                            "text": "a",
+                            "action": "dismiss",
+                        }
+                    ]
+                },
+                {
+                    "text": "a",
+                    "action": "dismiss",
+                }
+            ]
+        }
     }
 ]
